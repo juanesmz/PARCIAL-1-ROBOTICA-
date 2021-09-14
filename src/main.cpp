@@ -33,5 +33,26 @@ void setup() {
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
+  SensorTrayectoria.estado();
+  SensorTrayectoria.aviso();
+
+  SensorImpacto1.estado();
+  SensorImpacto2.estado();
+  SensorImpacto3.estado();
+
+  SensorMovimiento1.estado();
+  SensorMovimiento1.aviso();
+  SensorMovimiento2.estado();
+  SensorMovimiento2.aviso();
+  SensorMovimiento3.estado();
+  SensorMovimiento3.aviso();
+
+  SensorObstaculos1.estado();
+  SensorObstaculos1.aviso();
+  SensorObstaculos2.estado();
+  SensorObstaculos2.aviso();
+  SensorObstaculos3.estado();
+  SensorObstaculos3.aviso();
+
+  
 }
